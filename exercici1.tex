@@ -5,7 +5,7 @@
 \usepackage{hyperref}
 
 \title{Inecuaciones}
-\author{Iván Palomo}
+\author{Iván Palomo y Alexandre Torrandell}
 \date{23 de febrero de 2026}
 
 \begin{document}
@@ -53,9 +53,9 @@
 	\end{cases}
 	$$ \\
 
-	Luego 
+	Luego,
 	$$
-	\boxed{ x\in(-\infty,-\frac{1}{2})}
+	\boxed{ x\in(-\frac{1}{2}, \infty)}
 	$$
 	
 	\section{$x^2 -ax \le 2$}
@@ -64,7 +64,31 @@ Esto equivale a resolver:
 	
 		$$x^2 -ax \le 2 \iff x(x-a)\le 2$$ \\
 		
-El caso $x = 0$ es trivial ya que $0 \le 2$ siempre, Entonces veremos que pasa con $(x-a)$.
-	
+Los casos $x = 0$ y $x = a$ son triviales ya que $0 \le 2$ siempre, Entonces veremos que pasa con $(x-a)$.\\
+
+Ahora queremos distinguir cuando $x<a$ y $x>a$, tomando cuando cada una es positiva o negativa. \\
+
+Sea $x<a$ si: 
+	$$
+\begin{cases}
+	x < a < 0 \Rightarrow \textbf{No Cumple}\\
+	x < 0 < a  \Rightarrow \textbf{Cumple} \\
+	0 < x < a  \Rightarrow \textbf{Cumple}
+\end{cases}
+$$ \\
+
+Sea $x>a$ si: 
+$$
+\begin{cases}
+	a < x < 0 \Rightarrow \textbf{No Cumple}\\
+	a < 0 < x  \Rightarrow \textbf{Cumple}\\
+	0 < a < x  \Rightarrow \textbf{Cumple}
+\end{cases}
+$$ \\
+
+Luego, 
+		$$
+	\boxed{ x\in(a,\infty)}
+	$$
 	
 \end{document}
