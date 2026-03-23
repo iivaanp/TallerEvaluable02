@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+
+\title{Inecuaciones}
+\author{Iván Palomo}
+\date{23 de febrero de 2026}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\newpage
+	
+	\section{$|x-|x-2||<3$}
+		
+	\medskip
+	
+	Esto equivale a resolver:
+	
+	\begin{align*}
+		|x-|x-2||<3
+		&\iff -3<x-|x-2|<3\\
+		&\iff 3+x > |x-2|> -3 + x. \\
+	\end{align*}
+	
+	
+	Resolvemos cada desigualdad por separado:
+	
+	$$
+	\begin{cases}
+		3+x > |x-2|,\\
+		|x-2|> -3 + x
+	\end{cases}
+	$$ \\
+	
+	En la primera desigualdad distinguiremos entre otros dos subcasos:
+	
+		$$
+	\begin{cases}
+		|x-2| = x-2 \Rightarrow 3 > -2,\\
+		|x-2| = -(x-2) \Rightarrow x > -\frac{1}{2}
+	\end{cases}
+	$$ \\
+	
+	En la segunda desigualdad haremos el mismo proceso:
+	
+		$$
+	\begin{cases}
+		|x-2| = x-2 \Rightarrow -2 > -3,\\
+		|x-2| = -(x-2) \Rightarrow x >\frac{5}{2}
+	\end{cases}
+	$$ \\
+
+	Luego 
+	$$
+	\boxed{ x\in(-\infty,-\frac{1}{2})}
+	$$
+	
+	\section{$x^2 -ax \le 2$}
+	
+Esto equivale a resolver:
+	
+		$$x^2 -ax \le 2 \iff x(x-a)\le 2$$ \\
+		
+El caso $x = 0$ es trivial ya que $0 \le 2$ siempre, Entonces veremos que pasa con $(x-a)$.
+	
+	
+\end{document}
